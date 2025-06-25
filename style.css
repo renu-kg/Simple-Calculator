@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Make the calculator look centered and clean */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 340px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+/* Buttons */
+button {
+  font-size: 1.4rem;
+  padding: 1rem 0.5rem;
+}
+
+/* Display box */
+#display {
+  height: 60px;
+  border: 2px solid #ced4da;
+  border-radius: 8px;
+  padding-right: 10px;
+  background-color: #fdfdfd;
+}
